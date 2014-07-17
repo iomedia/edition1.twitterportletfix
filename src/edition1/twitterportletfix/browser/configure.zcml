@@ -16,6 +16,7 @@
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       class=".controlpanel.TwitterControlPanel"
       permission="edition1.twitterportletfix.ManageTwitter"
+      layer="edition1.twitterportletfix.interfaces.ITwitterPortletFixLayer"
       />
 
 </configure>
